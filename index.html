@@ -1,0 +1,345 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODOP </title>
+   <link rel="microsoft icon" href="https://static.investindia.gov.in/s3fs-public/2023-02/ODOP-Logo-1280x721.jpg"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  />
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-top: 0;
+            box-sizing: border-box;
+             
+        }
+ 
+.slider{
+    height: 400px;
+    width:100%;
+    position: relative;
+    background-image: url(odop.png);
+    box-shadow: 1px 2px 10px 5px whitesmoke;
+    animation:slider 15s infinite linear;
+    margin-top: 0px;
+    border-color: 9px bold black;
+}
+@keyframes slider{
+    0%{
+        background-image: url(images/odop.png);    
+    }
+    15%{ background-image: url(images/apple.png);}
+
+ 30%{ background-image: url(images/honey.jpeg) ;}
+
+45%{
+    background-image:url(images/saffon.jpeg) ;
+}
+90%{ background-image: url(images/spices.webp);}
+
+100%{ background-image: url(images/odop.png);}
+}
+ 
+ img{
+   border-radius: 300px;
+   margin: 10px;
+   margin-left: 25px;
+   margin-right: 15px;
+   border-color: black bold 2px;
+   letter-spacing: 10px;
+   
+ }
+ @media screen and (max-width: 400px) {
+   img{
+     width: 110px;
+     height: 110px;
+     
+   }
+}
+ 
+ .fruit h1{
+    margin: 5px;
+    color: rgb(109, 0, 0);
+    text-align: center;
+ }
+ .fruit p{
+    margin-left: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+.pos p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    float: right;
+}
+ 
+nav{
+  margin-bottom: 0px;
+}
+footer {
+    background-color:  rgb(89, 71, 60);
+    color: white;
+    padding: 20px 0;
+  }
+  .tag h2{
+    text-align: center;
+    color: black;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .footer-container > div {
+    padding: 20px;
+    flex: 1;
+  }
+
+  .footer-container h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .footer-container ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-container ul li {
+    margin-bottom: 8px;
+  }
+
+  .footer-container a {
+    color: #aaa;
+    text-decoration: none;
+  }
+  
+
+  .footer-container a:hover {
+    color: #fff;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+  }
+    /* there is a css  of a toggle btn*/
+    
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24 ,
+        
+        
+      }
+     
+
+  .dark-mode  {
+    background-color: black;
+    color: white;
+   
+  }
+  .dark-mode  .fruit h1 {
+    background-color: black;
+    color: white;
+  }
+  .dark-mode img{
+    border:  2px solid white;
+  }
+  .dark-mode  .slider{
+    box-shadow: 1px 2px 10px 5px rgb(17, 17, 17);
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  }
+  
+ 
+    </style> 
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Kashmiri</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gov.html">Gov_Web</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact Us</a>
+          </li>
+           
+          
+        </ul>
+         
+        
+          <a class="btn btn-outline-success" href="sign.html"> Sign In</a>
+          <a class="btn btn-outline"> <button onclick="myFunction()">
+            <span class="material-symbols-outlined"> toggle_on </span>
+          </button></a>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+  </nav>
+ <br><br>
+            <div class="slider"></div> <br><hr color="black" bold 5px>
+            <div class="fruit">
+                <br>
+            <h1><big> Fruits Product in Jammu and Kashmir..</big>  </h1>
+            <br>
+            <img src="images/cherry.jpg" height="250px" width=" 250px">
+            <img src="images/apple.png" height="250px" width=" 250px">
+            <img src="images/mashroom.jpeg" height="250px" width=" 250px"><br>
+
+            <p><big> <b>Shopian Apples :</big> </b><I > <SMALL>-Apple cultivation in India is dominated by Kashmir, which produces 78
+                 per cent of India's total annual output of around 25-26 lakh metric tonnes.A special mention needs to be made of Ambri, the well-known native apple from Shopian 
+                It is rated as the best apple of Kashmir in terms of fragrance, taste and longevity</SMALL></I></p>
+                <p> <big><b>Cherries (buramulla) :</big>  </b>      <i> <small>  - Kashmir produces four highly sought-after varieties of cherry —
+                     double, makhmali, mishri and Italy — most of which are sold outside the Valley, for premium prices. With
+                     harvest underway, cherry growers are trying to send the fruit to other states at the earliest. </small></i></p>
+       <p><big><b>Mashroom :</b></big> <i><small>Kashmiri mushrooms, also known as "Gucchi" or "Morel mushrooms,"
+         are a rare and highly prized delicacy in Indian cuisine. These mushrooms are found in the Himalayan region, 
+         particularly in the forests of Kashmir. They have a distinct and earthy flavor, 
+        with a nutty undertone, making them a favorite in various dishes like biryani and curry. </small></i> </p>
+  <br>
+  <br>
+  <h1><big>Some Product In Jammu and Kashmir</big></h1><br>
+  <img src="images/honey.jpeg" height="250px" width=" 250px">
+  <img src="images/wallnut.jpg" height="250px" width=" 250px">
+  <img src="images/lav.jpeg" height="250px" width=" 250px"><br><br>
+  <p><big> <b>Honey :</big> </b><I > <SMALL> Highest spatial honey production was found in Pulwama followed by
+     Anantnag, Baramulla, Srinagar, and Kupwara. 
+    Around 70,000 honey bee colonies have come up in different regions of Kashmir valley.</SMALL></I></p>
+   <p> <big><b>Walnut :</big>  </b>      <i> <small>  Walnut accounts for 85.05% of the land under dry fruit cultivation 
+    in Jammu and Kashmir. According to official estimates, around 2.66 lakh metric tonnes of walnuts are harvested from
+     an area of 89000 hectares, while the productivity of walnuts in J&K is 2.98 tonnes/ha
+    . Walnuts are export commodities and bring in around 120 crore rupees per annum. </small></i></p>
+<p><big><b>Lavender :</b></big> <i><small> Large-scale lavender production in Jammu and Kashmir is limited by climatic 
+    requirements (low humidity and low winter temperatures), poorly drained soils and the scale requirements for essential oils
+     processing. Lavender could be suited as a 
+    
+    specialty/niche crop for farmers especially those with ongoing agritourism enterprises. </small></i> </p>
+<br>
+<br>
+<h1><big>Spices in jammu kashmir </big></h1>
+
+<img src="images/garlic.jpeg" height="250px" width=" 250px">
+  <img src="images/mirchi.jpeg" height="250px" width=" 250px">
+  <img src="images/s.jpg" height="250px" width=" 250px"><br>
+  <p><big> <b>Red Chilli :</big> </b><I > <SMALL> Kashmiri Red Chilies or Kashmiri Laal Mirch are characterized by their
+     ability to give a dark red colour to food, capable of colouring and adding flavour, while at the same time not allowing
+      the food to become too pungent or spicy.[1] India is the largest consumer and producer.[2] Numerous companies sell the
+       powdered form, including MDH, Everest Spices, 
+    Sakthi Masala and Badshah Masala.[3] Vir Sanghvi writes that a majority of the restaurant</SMALL></I></p>
+   <p> <big><b>Spices :</big>  </b>      <i> <small>  Known for producing high-quality spices, the region has become
+     a hub for the industry, with thousands of local farmers and traders involved in its production and distribution.
+      The most famous spices produced in the region include saffron, fennel, cumin, cinnamon, and cardamom,
+     which are used both locally and internationally in a variety of dishes.. </small></i></p>
+<p><big><b>Garlic :</b></big> <i><small> Official figures reveal that in the year 2021-2022, a total of 1776.50 
+    hectares in the Kashmir valley was under garlic production and the total garlic produced in the year was 
+    553480 quintals-
+     out of which 110696 quintals were exported outside the Jammu Kashmir region.. </small></i> </p>
+<br>
+<br>
+<hr color="black" 2px>
+  
+        </div>
+        <br>
+        <br>
+         <div class="tag"> <h2>[ ..One Distric One Product..] </h2></div>
+        <br><br>
+        <footer>
+            <div class="footer-container">
+              <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="About.html">About</a></li>
+                  <li><a href="Contact.html">CotactUs</a></li>
+                  <li><a href="sign.html">Sign_in</a></li>
+                  <li><a href=" Gov.html">Gov Info</a></li>
+                  
+                  
+                  
+                 
+                   
+      
+                </ul>
+              </div>
+              <div class="footer-links">
+                <h3>_______</h3>
+                <ul>
+                  
+                  <li><a href= " https://odop.mofpi.gov.in/"> GIS Portal</li></a>
+                  <li><a href=" https://www.investindia.gov.in/">Invest_india</a></li>
+                 <li><a href=" https://www.india.gov.in/">  National Portal</li></a>
+                  <li><a href="https://instapdf.in/one-district-one-product-list/">Product_list</a></li>
+                  
+      
+                </ul>
+              </div>
+              <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                  <li><a href="https://facebook.com">Facebook</a></li>
+                  <li><a href=https://twitter.com/RagineeDarade>Twitter</a></li>
+                  <li><a href="https://instagram.com/raginee_darade">Instagram</a></li>
+                  <li><a href="https://linkedin.com/The Raginee Darade">LinkedIn</a></li>
+                   
+                </ul>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <h4 class="coppy">  Copyright ©2024 ODOP.COM (P) Ltd.</h4>
+            </div>
+          </footer>
+     
+    
+ 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script></script>
+         
+         
+    
+         
+</body>
+</html>
